@@ -19,8 +19,8 @@ int main()
 
 	while( flag == TRUE )
 	{
-		scanf("%c", &ch);
-		//getchar();
+		//scanf("%c", &ch);
+		ch = getchar();
 	
 		if(ch >= 'A' && ch <= 'Z')
 		{
@@ -37,6 +37,7 @@ int main()
 			printf("Please Input again: \n");
 		}
 	}
-	
+	printf("Output: %c\n", ch);
+
 	return 0;
 }
