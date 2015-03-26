@@ -21,6 +21,7 @@ int main()
 	{
 		//scanf("%c", &ch);
 		ch = getchar();
+		fflush(stdin);
 	
 		if(ch >= 'A' && ch <= 'Z')
 		{
